@@ -12,3 +12,6 @@ rosdep update
 sudo apt install -y python-rosinstall
 echo "source /opt/ros/$ROS_DIST/setup.bash" >> ~/.bashrc
 echo "source /opt/ros/$ROS_DIST/setup.zsh" >> ~/.zshrc
+
+echo "install extra ros package"
+sudo apt install -y ros-$ROS_DIST-navigation ros-$ROS_DIST-joy ros-$ROS_DIST-ros-control ros-$ROS_DIST-people-msgs gstreamer1.0-pocketsphinx

@@ -21,7 +21,7 @@ fi
 
 echo "install utilities"
 sudo apt update
-sudo apt install -y git vim zsh tmux openssh-server nload curl wget axel ncdu geeqie feh mplayer
+sudo apt install -y git vim zsh tmux openssh-server trash-cli nload curl wget axel ncdu geeqie feh mplayer
 
 # git lfs
 echo "install git-lfs"
